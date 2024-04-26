@@ -1,0 +1,15 @@
+14:14:13.838 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save content types part
+14:14:13.856 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save package relationships
+14:14:13.859 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/app.xml'
+14:14:13.860 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'docProps/core.xml'
+14:14:13.865 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/sharedStrings.xml'
+14:14:13.866 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/styles.xml'
+14:14:13.867 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/theme/theme1.xml'
+14:14:13.868 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/workbook.xml'
+14:14:13.870 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet1.xml'
+14:14:13.871 [main] DEBUG org.apache.poi.openxml4j.opc.ZipPackage - Save part 'xl/worksheets/sheet2.xml'
+14:14:13.872 [main] INFO  testCases.TC_001_SearchDoctorsTest - Finished TC_001_SearchDoctors
+14:14:24.952 [main] INFO  testCases.TC_002_ListOfSurgeries - Started TC_002_ListOfSurgeries
+14:14:27.161 [main] INFO  testCases.TC_002_ListOfSurgeries - Finished TC_002_ListOfSurgeries
+14:14:38.150 [main] INFO  testCases.TC_003_HealthAndWellness - Started TC_003_HealthAndWellness
+14:15:01.545 [main] INFO  testCases.TC_003_HealthAndWellness - Finished TC_003_HealthAndWellness

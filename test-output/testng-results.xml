@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T14:13:07 IST" name="Suite" finished-at="2024-04-12T14:15:01 IST" duration-ms="114238">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T14:13:07 IST" name="testng" finished-at="2024-04-12T14:15:01 IST" duration-ms="114238">
+      <class name="testCases.TC_003_HealthAndWellness">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_003_HealthAndWellness@3541cb24]" started-at="2024-04-12T14:14:27 IST" name="setup" finished-at="2024-04-12T14:14:35 IST" duration-ms="7765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateForCorporate()[pri:1, instance:testCases.TC_003_HealthAndWellness@3541cb24]" started-at="2024-04-12T14:14:35 IST" name="validateForCorporate" finished-at="2024-04-12T14:14:49 IST" duration-ms="14701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateForCorporate -->
+        <test-method signature="invalidEmailId()[pri:2, instance:testCases.TC_003_HealthAndWellness@3541cb24]" started-at="2024-04-12T14:14:49 IST" name="invalidEmailId" finished-at="2024-04-12T14:14:54 IST" duration-ms="5035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmailId -->
+        <test-method signature="validateThankYou()[pri:3, instance:testCases.TC_003_HealthAndWellness@3541cb24]" started-at="2024-04-12T14:14:54 IST" name="validateThankYou" finished-at="2024-04-12T14:15:01 IST" duration-ms="6667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateThankYou -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_HealthAndWellness@3541cb24]" started-at="2024-04-12T14:15:01 IST" name="tearDown" finished-at="2024-04-12T14:15:01 IST" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_003_HealthAndWellness -->
+      <class name="testCases.TC_002_ListOfSurgeries">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_002_ListOfSurgeries@52102734]" started-at="2024-04-12T14:14:14 IST" name="setup" finished-at="2024-04-12T14:14:21 IST" duration-ms="7708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="findSurgeries()[pri:1, instance:testCases.TC_002_ListOfSurgeries@52102734]" started-at="2024-04-12T14:14:21 IST" name="findSurgeries" finished-at="2024-04-12T14:14:27 IST" duration-ms="5223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findSurgeries -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_ListOfSurgeries@52102734]" started-at="2024-04-12T14:14:27 IST" name="tearDown" finished-at="2024-04-12T14:14:27 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_ListOfSurgeries -->
+      <class name="testCases.TC_001_SearchDoctorsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_SearchDoctorsTest@e1de817]" started-at="2024-04-12T14:13:07 IST" name="setup" finished-at="2024-04-12T14:13:17 IST" duration-ms="9380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchDoctors()[pri:1, instance:testCases.TC_001_SearchDoctorsTest@e1de817]" started-at="2024-04-12T14:13:17 IST" name="searchDoctors" finished-at="2024-04-12T14:13:26 IST" duration-ms="9813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDoctors -->
+        <test-method signature="seachDoctorsWithFilters()[pri:2, instance:testCases.TC_001_SearchDoctorsTest@e1de817]" started-at="2024-04-12T14:13:26 IST" name="seachDoctorsWithFilters" finished-at="2024-04-12T14:14:09 IST" depends-on-methods="testCases.TC_001_SearchDoctorsTest.searchDoctors" duration-ms="43077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seachDoctorsWithFilters -->
+        <test-method signature="printDoctors()[pri:3, instance:testCases.TC_001_SearchDoctorsTest@e1de817]" started-at="2024-04-12T14:14:09 IST" name="printDoctors" finished-at="2024-04-12T14:14:10 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDoctors -->
+        <test-method signature="printDetails()[pri:4, instance:testCases.TC_001_SearchDoctorsTest@e1de817]" started-at="2024-04-12T14:14:10 IST" name="printDetails" finished-at="2024-04-12T14:14:13 IST" duration-ms="3700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_SearchDoctorsTest@e1de817]" started-at="2024-04-12T14:14:13 IST" name="tearDown" finished-at="2024-04-12T14:14:14 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_001_SearchDoctorsTest -->
+    </test> <!-- testng -->
+  </suite> <!-- Suite -->
+</testng-results>
